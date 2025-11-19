@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"        # or "pip", "maven", "gradle", "docker", etc.
+  - package-ecosystem: "docker"        # or "pip", "maven", "gradle", "docker", etc.
     directory: "/"                  # location of manifest files (e.g., package.json, requirements.txt)
     schedule:
       interval: "weekly"            # options: daily, weekly, monthly
